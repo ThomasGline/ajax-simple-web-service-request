@@ -1,0 +1,29 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("Roboto-Regular.ttf");
+}
+body{
+    background-color: rgb(62, 85, 100);
+    text-align: center;
+    font-family: "Roboto";
+    color: rgb(224, 224, 224);
+}
+img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    border: solid 2px white;
+    display: block;
+    margin: auto;
+}
+#run{
+    width: 10%;
+    height: 2rem;
+    background-color: rgb(185, 185, 185);
+    border: solid  rgb(185, 185, 185) 1px;
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+#run:hover{
+    border: solid white 1px;
+}
